@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div ref="el" class="sfhdhdhr">
 	<MkMenu ref="menu" :items="items" :align="align" :width="width" :as-drawer="false" @close="onChildClosed"/>

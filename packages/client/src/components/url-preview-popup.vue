@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div class="fgmtyycl" :style="{ zIndex, top: top + 'px', left: left + 'px' }">
 	<transition :name="$store.state.animation ? 'zoom' : ''" @after-leave="$emit('closed')">

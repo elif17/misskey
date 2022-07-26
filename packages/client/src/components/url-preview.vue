@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div v-if="playerEnabled" class="player" :style="`padding: ${(player.height || 0) / (player.width || 1) * 100}% 0 0`">
 	<button class="disablePlayer" :title="i18n.ts.disablePlayer" @click="playerEnabled = false"><i class="fas fa-times"></i></button>

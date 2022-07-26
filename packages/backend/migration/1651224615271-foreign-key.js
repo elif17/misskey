@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export class foreignKeyReports1651224615271 {
     name = 'foreignKeyReports1651224615271'
 

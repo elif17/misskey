@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { VNode, defineComponent, h } from 'vue';
 import * as mfm from 'mfm-js';
 import MkUrl from '@/components/global/url.vue';

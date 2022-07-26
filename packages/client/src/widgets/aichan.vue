@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkContainer :naked="widgetProps.transparent" :show-header="false" class="mkw-aichan">
 	<iframe ref="live2d" class="dedjhjmo" src="https://misskey-dev.github.io/mascot-web/?scale=1.5&y=1.1&eyeY=100" @click="touched"></iframe>

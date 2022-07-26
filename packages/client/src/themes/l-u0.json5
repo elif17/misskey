@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2022, Shinoda Eiji <syuilotan@yahoo.co.jp>
+// SPDX-License-Identifier: AGPL-3.0-only
+
+
+
 {
 	id: 'e2c940b5-6e9a-4c03-b738-261c720c426d',
 	base: 'light',

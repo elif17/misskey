@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export const MAX_NOTE_TEXT_LENGTH = 3000;
 
 export const USER_ONLINE_THRESHOLD = 1000 * 60 * 10; // 10min

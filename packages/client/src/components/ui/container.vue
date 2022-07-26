@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div v-size="{ max: [380] }" class="ukygtjoj _panel" :class="{ naked, thin, hideHeader: !showHeader, scrollable, closed: !showBody }">
 	<header v-if="showHeader" ref="header">

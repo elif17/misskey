@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { CacheableUser, User } from '@/models/entities/user.js';
 import { UserGroup } from '@/models/entities/user-group.js';
 import { DriveFile } from '@/models/entities/drive-file.js';

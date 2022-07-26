@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export class instanceDefaultTheme1646143552768 {
     name = 'instanceDefaultTheme1646143552768'
 

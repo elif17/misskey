@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export default (input: string): string[] => {
 	if (Object.keys(aliases).some(a => a.toLowerCase() === input.toLowerCase())) {
 		const codes = aliases[input];

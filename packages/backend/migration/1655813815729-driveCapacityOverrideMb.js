@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export class driveCapacityOverrideMb1655813815729 {
     name = 'driveCapacityOverrideMb1655813815729'
 

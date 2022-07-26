@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export function focusPrev(el: Element | null, self = false, scroll = true) {
 	if (el == null) return;
 	if (!self) el = el.previousElementSibling;

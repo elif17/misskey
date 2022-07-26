@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkModal ref="modal" :prefer-type="'dialog'" :z-priority="'high'" @click="success ? done() : () => {}" @closed="emit('closed')">
 	<div class="iuyakobc" :class="{ iconOnly: (text == null) || success }">

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { URL } from 'node:url';
 import S3 from 'aws-sdk/clients/s3.js';
 import { Meta } from '@/models/entities/meta.js';

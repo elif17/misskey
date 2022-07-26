@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkContainer :show-header="widgetProps.showHeader" class="mkw-memo">
 	<template #header><i class="fas fa-sticky-note"></i>{{ i18n.ts._widgets.memo }}</template>

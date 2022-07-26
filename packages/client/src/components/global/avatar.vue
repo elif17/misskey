@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <span v-if="disableLink" v-user-preview="disablePreview ? undefined : user.id" class="eiwwqkts _noSelect" :class="{ cat: user.isCat, square: $store.state.squareAvatars }" :style="{ color }" :title="acct(user)" @click="onClick">
 	<img class="inner" :src="url" decoding="async"/>

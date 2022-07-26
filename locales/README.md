@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 # **DO NOT edit locale files** except `ja-JP.yml`.
 
 When you add text to the ja-JP file (of misskey-dev/misskey), it will automatically be applied to other language files.

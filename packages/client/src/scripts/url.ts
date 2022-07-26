@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export function query(obj: Record<string, any>): string {
 	const params = Object.entries(obj)
 		.filter(([, v]) => Array.isArray(v) ? v.length : v !== undefined)

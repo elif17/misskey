@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkSpacer :content-max="narrow ? 800 : 1100">
 	<div ref="rootEl" v-size="{ max: [500] }" class="ftskorzw" :class="{ wide: !narrow }">

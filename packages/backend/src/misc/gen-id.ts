@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { ulid } from 'ulid';
 import { genAid } from './id/aid.js';
 import { genMeid } from './id/meid.js';

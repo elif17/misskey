@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { CacheableRemoteUser } from '@/models/entities/user.js';
 import { ILike, getApId } from '../../type.js';
 import deleteReaction from '@/services/note/reaction/delete.js';

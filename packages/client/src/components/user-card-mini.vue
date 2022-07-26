@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div :class="[$style.root, { yellow: user.isSilenced, red: user.isSuspended, gray: false }]">
 	<MkAvatar class="avatar" :user="user" :disable-link="true" :show-indicator="true"/>

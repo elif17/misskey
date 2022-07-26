@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 # Roadmap
 The order of individual tasks is a guide only and is subject to change depending on the situation.
 Also, the later tasks are more indefinite and are subject to change as development progresses.

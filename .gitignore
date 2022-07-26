@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # Visual Studio Code
 /.vscode
 !/.vscode/extensions.json

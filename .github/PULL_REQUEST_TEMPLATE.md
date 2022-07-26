@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <!-- ℹ お読みください / README
 PRありがとうございます！ PRを作成する前に、コントリビューションガイドをご確認ください:
 Thank you for your PR! Before creating a PR, please check the contribution guide:

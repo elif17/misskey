@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { renderActivity } from '@/remote/activitypub/renderer/index.js';
 import { renderBlock } from '@/remote/activitypub/renderer/block.js';
 import renderUndo from '@/remote/activitypub/renderer/undo.js';

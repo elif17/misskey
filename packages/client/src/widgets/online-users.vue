@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div class="mkw-onlineUsers" :class="{ _panel: !widgetProps.transparent, pad: !widgetProps.transparent }">
 	<I18n v-if="onlineUsersCount" :src="i18n.ts.onlineUsersCount" text-tag="span" class="text">

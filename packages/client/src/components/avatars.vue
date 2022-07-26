@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div>
 	<div v-for="user in users" :key="user.id" style="display:inline-block;width:32px;height:32px;margin-right:8px;">

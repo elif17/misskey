@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div class="jmgmzlwq _block"><i class="fas fa-exclamation-triangle" style="margin-right: 8px;"></i>{{ i18n.ts.remoteUserCaution }}<a class="link" :href="href" rel="nofollow noopener" target="_blank">{{ i18n.ts.showOnRemote }}</a></div>
 </template>

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkTooltip ref="tooltip" :showing="showing" :x="x" :y="y" :max-width="340" :direction="'top'" :inner-margin="16" @closed="emit('closed')">
 	<div v-if="title || series" class="qpcyisrl">

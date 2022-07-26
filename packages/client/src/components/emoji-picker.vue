@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div class="omfetrab" :class="['s' + size, 'w' + width, 'h' + height, { asDrawer }]" :style="{ maxHeight: maxHeight ? maxHeight + 'px' : undefined }">
 	<input ref="search" v-model.trim="q" class="search" data-prevent-emoji-insert :class="{ filled: q != null && q != '' }" :placeholder="i18n.ts.search" type="search" @paste.stop="paste" @keyup.enter="done()">

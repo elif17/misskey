@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <span v-if="note.visibility !== 'public'" :class="$style.visibility">
 	<i v-if="note.visibility === 'home'" class="fas fa-home"></i>

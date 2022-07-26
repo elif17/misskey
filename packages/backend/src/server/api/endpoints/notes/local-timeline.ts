@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { Brackets } from 'typeorm';
 import { fetchMeta } from '@/misc/fetch-meta.js';
 import { Notes, Users } from '@/models/index.js';

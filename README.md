@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <div align="center">
 <a href="https://misskey-hub.net">
 	<img src="./assets/title_float.svg" alt="Misskey logo" style="border-radius:50%" width="400"/>

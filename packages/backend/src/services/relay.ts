@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { IsNull } from 'typeorm';
 import { renderFollowRelay } from '@/remote/activitypub/renderer/follow-relay.js';
 import { renderActivity, attachLdSignature } from '@/remote/activitypub/renderer/index.js';

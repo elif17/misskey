@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <!-- eslint-disable vue/no-mutating-props -->
 <XContainer :removable="removable" :error="error" :warn="warn" :draggable="draggable" @remove="() => $emit('remove')">

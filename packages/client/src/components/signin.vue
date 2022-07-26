@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <form class="eppvobhk _monolithic_" :class="{ signing, totpLogin }" @submit.prevent="onSubmit">
 	<div class="auth _section _formRoot">

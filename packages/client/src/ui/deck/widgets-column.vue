@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <XColumn :menu="menu" :naked="true" :column="column" :is-stacked="isStacked" @parent-focus="$event => emit('parent-focus', $event)">
 	<template #header><i class="fas fa-window-maximize" style="margin-right: 8px;"></i>{{ column.name }}</template>

@@ -1,4 +1,6 @@
-
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
 
 export class federationChartPubsub1645599900873 {
     name = 'federationChartPubsub1645599900873'

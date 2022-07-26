@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <button class="nrvgflfu _button" @click="toggle">
 	<b>{{ modelValue ? i18n.ts._cw.hide : i18n.ts._cw.show }}</b>

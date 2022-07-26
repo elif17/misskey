@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import * as assert from 'assert';
 import httpSignature from 'http-signature';
 import { genRsaKeyPair } from '../src/misc/gen-key-pair.js';

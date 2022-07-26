@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { Schema } from '@/misc/schema.js';
 
 import * as ep___admin_meta from './endpoints/admin/meta.js';

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <form class="qlvuhzng _formRoot" autocomplete="new-password" @submit.prevent="onSubmit">
 	<MkInput v-if="instance.disableRegistration" v-model="invitationCode" class="_formBlock" type="text" :spellcheck="false" required>

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div v-show="files.length != 0" class="skeikyzd">
 	<XDraggable v-model="_files" class="files" item-key="id" animation="150" delay="100" delay-on-touch-only="true">

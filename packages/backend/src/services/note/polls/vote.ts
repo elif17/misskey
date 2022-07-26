@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { publishNoteStream } from '@/services/stream.js';
 import { CacheableUser, User } from '@/models/entities/user.js';
 import { Note } from '@/models/entities/note.js';

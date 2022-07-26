@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2022, Shinoda Eiji <syuilotan@yahoo.co.jp>
+// SPDX-License-Identifier: AGPL-3.0-only
+
+
+
+
 import { entity as FederationChart } from './charts/entities/federation.js';
 import { entity as NotesChart } from './charts/entities/notes.js';
 import { entity as UsersChart } from './charts/entities/users.js';

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <div :class="[$style.root, { yellow: instance.isNotResponding, red: instance.isBlocked, gray: instance.isSuspended }]">
 	<img v-if="instance.iconUrl" class="icon" :src="instance.iconUrl" alt=""/>

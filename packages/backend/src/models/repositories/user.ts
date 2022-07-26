@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { EntityRepository, Repository, In, Not } from 'typeorm';
 import Ajv from 'ajv';
 import { User, ILocalUser, IRemoteUser } from '@/models/entities/user.js';

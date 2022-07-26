@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 export function checkWordMute(note: Record<string, any>, me: Record<string, any> | null | undefined, mutedWords: Array<string | string[]>): boolean {
 	// 自分自身
 	if (me && (note.userId === me.id)) return false;

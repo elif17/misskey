@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import Bull from 'bull';
 import { LessThan } from 'typeorm';
 import { UserIps } from '@/models/index.js';

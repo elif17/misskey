@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkA :to="`/@${page.user.username}/pages/${page.name}`" class="vhpxefrj _block" tabindex="-1">
 	<div v-if="page.eyeCatchingImage" class="thumbnail" :style="`background-image: url('${page.eyeCatchingImage.thumbnailUrl}')`"></div>

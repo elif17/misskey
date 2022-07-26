@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <button class="zuvgdzyu _button" @click="menu">
 	<img :src="emoji.url" class="img" :alt="emoji.name"/>

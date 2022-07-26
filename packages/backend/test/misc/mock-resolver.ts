@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022, Shinoda Eiji <syuilotan@yahoo.co.jp>
+// SPDX-License-Identifier: AGPL-3.0-only
+
+
 import Resolver from '../../src/remote/activitypub/resolver.js';
 import { IObject } from '../../src/remote/activitypub/type.js';
 

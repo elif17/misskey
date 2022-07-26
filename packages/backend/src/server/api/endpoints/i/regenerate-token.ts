@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import bcrypt from 'bcryptjs';
 import { publishInternalEvent, publishMainStream, publishUserEvent } from '@/services/stream.js';
 import generateUserToken from '../../common/generate-native-user-token.js';

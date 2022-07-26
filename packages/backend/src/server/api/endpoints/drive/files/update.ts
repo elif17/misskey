@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { publishDriveStream } from '@/services/stream.js';
 import { DriveFiles, DriveFolders, Users } from '@/models/index.js';
 import { DB_MAX_IMAGE_COMMENT_LENGTH } from '@/misc/hard-limits.js';

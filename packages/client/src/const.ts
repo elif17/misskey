@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 // ブラウザで直接表示することを許可するファイルの種類のリスト
 // ここに含まれないものは application/octet-stream としてレスポンスされる
 // SVGはXSSを生むので許可しない

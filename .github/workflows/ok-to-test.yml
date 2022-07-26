@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+#
+# SPDX-License-Identifier: AGPL-3.0-only
+
 # If someone with write access comments "/ok-to-test" on a pull request, emit a repository_dispatch event
 name: Ok To Test
 

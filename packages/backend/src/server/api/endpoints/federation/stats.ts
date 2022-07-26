@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { IsNull, MoreThan, Not } from 'typeorm';
 import { Followings, Instances } from '@/models/index.js';
 import { awaitAll } from '@/prelude/await-all.js';

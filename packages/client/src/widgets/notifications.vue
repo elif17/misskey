@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkContainer :style="`height: ${widgetProps.height}px;`" :show-header="widgetProps.showHeader" :scrollable="true" class="mkw-notifications">
 	<template #header><i class="fas fa-bell"></i>{{ i18n.ts.notifications }}</template>

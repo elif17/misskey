@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 // https://github.com/typeorm/typeorm/issues/2400
 import pg from 'pg';
 pg.types.setTypeParser(20, Number);

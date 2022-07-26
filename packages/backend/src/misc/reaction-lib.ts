@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 /* eslint-disable key-spacing */
 import { emojiRegex } from './emoji-regex.js';
 import { fetchMeta } from './fetch-meta.js';

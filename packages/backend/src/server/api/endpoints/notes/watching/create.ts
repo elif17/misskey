@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import watch from '@/services/note/watch.js';
 import define from '../../../define.js';
 import { getNote } from '../../../common/getters.js';

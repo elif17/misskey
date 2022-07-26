@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import RE2 from 're2';
 import * as mfm from 'mfm-js';
 import { publishMainStream, publishUserEvent } from '@/services/stream.js';

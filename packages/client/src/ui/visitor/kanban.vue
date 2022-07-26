@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <!-- eslint-disable vue/no-v-html -->
 <template>
 <div class="rwqkcmrc" :style="{ backgroundImage: transparent ? 'none' : `url(${ $instance.backgroundImageUrl })` }">

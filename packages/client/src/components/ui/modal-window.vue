@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <MkModal ref="modal" :prefer-type="'dialog'" @click="onBgClick" @closed="$emit('closed')">
 	<div ref="rootEl" class="ebkgoccj _narrow_" :style="{ width: `${width}px`, height: scroll ? (height ? `${height}px` : null) : (height ? `min(${height}px, 100%)` : '100%') }" @keydown="onKeydown">

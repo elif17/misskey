@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <transition :name="$store.state.animation ? 'window' : ''" appear @after-leave="$emit('closed')">
 	<div v-if="showing" ref="rootEl" class="ebkgocck" :class="{ maximized }">

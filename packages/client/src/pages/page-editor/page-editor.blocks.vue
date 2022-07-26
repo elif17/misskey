@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
 <template>
 <XDraggable v-model="blocks" tag="div" item-key="id" handle=".drag-handle" :group="{ name: 'blocks' }" animation="150" swap-threshold="0.5">
 	<template #item="{element}">

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import { FindOptionsWhere, In, IsNull } from 'typeorm';
 import { resolveUser } from '@/remote/resolve-user.js';
 import { Users } from '@/models/index.js';

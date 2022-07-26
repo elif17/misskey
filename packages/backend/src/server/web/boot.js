@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 /**
  * BOOT LOADER
  * サーバーからレスポンスされるHTMLに埋め込まれるスクリプトで、以下の役割を持ちます。

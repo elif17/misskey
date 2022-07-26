@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Shinoda Eiji, <syuilotan@yahoo.co.jp>, et al.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 import endpoints from '../endpoints.js';
 import config from '@/config/index.js';
 import { errors as basicErrors } from './errors.js';
